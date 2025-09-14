@@ -1,0 +1,4 @@
+- [ ] Update Jobs.jsx to display jobs in grid layout (1 column mobile, 2 columns tablet/desktop)
+- [ ] Replace Stack with Grid container for job cards
+- [ ] Wrap each JobCard in Grid item with responsive breakpoints
+- [ ] Test the grid layout for responsiveness

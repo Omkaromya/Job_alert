@@ -1,0 +1,40 @@
+/* Basic full-height gradient background and layout helpers for the login screen */
+.login-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%); */
+  padding: 24px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px 28px;
+  border-radius: 16px;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.login-avatar {
+  margin-bottom: 8px;
+  background-color: #1976d2;
+}
+
+.login-form {
+  margin-top: 8px;
+  
+}
+
+.login-submit {
+  margin-top: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
